@@ -1,2 +1,2 @@
 # MessageEncoder
-A nuget that encodes and decodes strings 
+A nuget package used for encoding and decoding strings 

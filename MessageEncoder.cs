@@ -3,7 +3,7 @@ using System.Text;
 
 namespace MessageEncoder
 {
-    public static class MessageEncoder
+    public static class Encoder
     {
         public static string EncodeMessage(string message)
         {

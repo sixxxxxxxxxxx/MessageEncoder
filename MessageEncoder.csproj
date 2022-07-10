@@ -1,9 +1,33 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MessageEncoder</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Ugochukwu Udeh</Authors>
+    <Description>A nuget package used for encoding and decoding messages</Description>
+    <PackageTags>Encryption, Decryption, Encrypt, Decrypt, Encode, Decode, Message</PackageTags>
+    <PackageProjectUrl>https://github.com/Sixxxxx/MessageEncoder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sixxxxx/MessageEncoder</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageIcon>MessageEncoder\images\icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <None Include="..\MessageEncoder\images\icon.png" Pack="true" Visible="false" PackagePath="MessageEncoder\images\icon.png" Link="MessageEncoder\images\icon.png" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="MessageEncoder\images\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
