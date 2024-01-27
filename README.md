@@ -8,7 +8,7 @@ A nuget package used for encoding and decoding strings.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-stable release version: ![version](https://img.shields.io/badge/version-1.0.30-blue)
+stable release version: ![version](https://img.shields.io/badge/version-1.0.2-blue)
 
 ## Tech Stack
 
